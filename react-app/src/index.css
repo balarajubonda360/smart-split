@@ -1,0 +1,58 @@
+:root {
+  font-family: 'Segoe UI', 'Noto Sans', 'Noto Sans Devanagari', 'Noto Sans Telugu', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #292438;
+  background: #f7f5fc;
+  --color-ink: #292438;
+  --color-muted: #746f83;
+  --color-primary: #7657e8;
+  --color-primary-dark: #5c3fc9;
+  --color-accent: #2dbda6;
+  --color-background: #f7f5fc;
+  --color-surface: #ffffff;
+  --color-border: #e8e3f2;
+  --shadow-card: 0 14px 34px rgba(41, 36, 56, 0.08);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+}
+
+::selection {
+  color: #fff;
+  background: var(--color-primary);
+}
+
+:focus-visible {
+  outline: 3px solid rgba(49, 95, 232, 0.42);
+  outline-offset: 3px;
+}
